@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: blue;
+    width: 67vh;
+    height: 95vh;
+
+}
+#seccion1{
+    background-color: beige;
+}
+
+
+
+#seccion2{
+    background-color:lightblue;
+    grid-column: 2/4;
+}
